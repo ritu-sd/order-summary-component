@@ -1,0 +1,118 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #E0E8FF;
+    overflow: hidden;
+}
+
+/* Card container styles */
+.card {
+    width: 450px;
+    height: 697px;
+    background: #FFFFFF;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column; 
+}
+
+/* Header styles */
+.card-header {
+    background-color: #382AE1;
+    text-align: center;
+    padding: 20px 0; 
+    border-radius: 20px 20px 0 0; 
+}
+
+/* Image inside the card header */
+.card-header img {
+    width: 70%; 
+    height: auto; 
+    border-radius: 20px; 
+}
+
+/* Card Body */
+.card-contents {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    row-gap: 30px; 
+    padding: 40px;
+}
+
+.content {
+    text-align: center;
+    font-size: 14px;
+    line-height: 26px;
+    color: #717FA6;
+}
+
+.order-summary{
+font-style: normal;
+font-weight: 900;
+font-size: 22px;
+line-height: 37px;
+text-align: center;
+color: #1F2E55;
+}
+
+.content{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #717FA6;
+}
+
+.annual-plan-details h3 {
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 21px;
+color: #1F2E55;
+}
+.annual-plan{
+    width: 354px;
+    height: 98px;
+    background-color: #F7F9FF;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+/* Card Footer */
+.card-footer {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    row-gap: 15px; 
+    padding: 20px;
+}
+
+.btn button{
+    width: 354px;
+    height: 50px;
+    background: #382AE1;
+    border: none;
+    outline: none;
+    border-radius: 11px; 
+    font-weight: 800;
+   font-size: 13px;
+   line-height: 20px;
+   color: #FFFFFF;
+    
+}
